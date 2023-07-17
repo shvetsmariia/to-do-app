@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# To-Do List Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple task management tool or to-do list tracker web application built with React and Material-UI. It allows you to create, edit, mark as completed, delete and organize. You can also prioritize tasks and filter them based on their status.
 
-## Available Scripts
+## Features
+- Add new tasks to the list
+- Edit task text
+- Mark tasks as completed
+- Delete tasks from the list
+- Prioritize tasks
+- Filter tasks based on their status (All, Completed, Uncompleted, Priority)
+- Clear all tasks from the list
 
-In the project directory, you can run:
+## Usage
+Enter a task name in the "Add New Task" field and press Enter or click "Add to List" to add a new task.
+To edit a task, click the edit button (pencil icon) next to the task, update the task name, and click the check button (done icon) to save the changes.
+To mark a task as completed, click the check button (done icon) next to the task.
+To delete a task, click the delete button (trash can icon) next to the task.
+To prioritize a task, click the flag button next to the task. The task will move to the top of the list.
+Use the filter dropdown menu to filter tasks based on their status (All, Completed, Uncompleted, Priority).
+To clear all tasks from the list, click the "Clear All" button at the bottom.
 
-### `npm start`
+## Technologies Used
+React
+Material-UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+Follow these steps to install and set up the To-Do List Tracker:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository to your local machine.
+2. Install the dependencies using npm install.
+3. Run the application using npm start.
+4. Open your browser and visit http://localhost:3000 to view the app.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Preview
+To see a live preview of the To-Do List Tracker, you can visit [Preview Link](https://shvetsmariia-to-do-app.netlify.app)
